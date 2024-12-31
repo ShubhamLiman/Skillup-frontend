@@ -24,7 +24,7 @@ function Form({ closeForm }) {
     };
     try {
       const response = await fetch(
-        "http://localhost:5000/skillup/api/client/register",
+        "https://skillup-backend-shubhamlimans-projects.vercel.app/skillup/api/client/register",
         {
           method: "POST",
           headers: {
