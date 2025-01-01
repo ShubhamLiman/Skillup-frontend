@@ -34,6 +34,8 @@ function Form({ closeForm }) {
         }
       );
       const data = await response.json();
+
+      alert("registered successfully");
     } catch (error) {
       console.log(error);
     }
